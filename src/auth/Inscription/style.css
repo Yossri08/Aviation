@@ -1,0 +1,42 @@
+/* styles.css */
+.custom-input {
+    border: 2px solid #2196F3;
+    border-radius: 4px;
+    padding: 10px;
+    width: calc(100% - 24px); /* Ajuste la largeur en tenant compte des bordures */
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    border-color: #2196F3;
+  }
+  
+  .field-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .field-label {
+    width: 200px;
+    margin: 0;
+  }
+  
+  .field-wrapper {
+    width: calc(100% - 200px); /* Ajuste la largeur du champ d'input */
+    position: relative;
+  }
+  
+  .no-margin {
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .required {
+    color: red;
+  }
+  
+  

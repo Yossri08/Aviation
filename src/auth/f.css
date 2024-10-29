@@ -1,0 +1,52 @@
+.notification-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notification-icon {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .notification-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .notification-bubble {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px;
+  }
+  
+  .notification-bubble h3 {
+    margin-top: 0;
+  }
+  
+  .notification-bubble ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .notification-bubble li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .notification-bubble li:last-child {
+    border-bottom: none;
+  }
+  

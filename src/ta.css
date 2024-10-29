@@ -1,0 +1,8 @@
+.custom-pro-table .ant-table {
+    position: relative;
+  }
+  
+  .custom-pro-table .ant-table .ant-table-container {
+    overflow: hidden; /* Cacher le débordement */
+  }
+  

@@ -1,0 +1,25 @@
+[
+    {
+      "title": "Gestion des balises",
+      "icon": "bi bi-airplane",
+      "childrens": [
+        {
+          "title": "Mes Balises",
+          "icon": "dna",
+          "path": "/liste"
+        },
+        {
+          "title": "Demandes de tests",
+          "icon": "dna",
+          "path": "/listtest"
+        },
+        {
+          "title": "Bureau d'etude",
+          "icon": "dna",
+          "path":"/bureauetude"
+        }
+       
+      ]
+    }
+  ]
+  
